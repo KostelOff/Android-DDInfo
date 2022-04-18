@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.ntechnology.ddinfo">
+
+	<application
+		android:name=".MainApplication"
+		android:allowBackup="true"
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name"
+		android:theme="@style/AppTheme">
+
+		<activity
+			android:name=".ui.activities.LauncherActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<action android:name="android.intent.action.VIEW" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".ui.fragments.GradesFragment"
+			android:screenOrientation="portrait" />
+		<activity
+			android:name=".ui.fragments.GradeSelectionFragment"
+			android:screenOrientation="portrait" />
+
+		<activity
+			android:name=".ui.activities.gender.GenderGradeActivity"
+			android:screenOrientation="portrait" />
+
+		<activity
+			android:name=".ui.activities.gender.selector.ExerciseAndResultSelectorActivity"
+			android:screenOrientation="portrait" />
+
+
+	</application>
+
+</manifest>

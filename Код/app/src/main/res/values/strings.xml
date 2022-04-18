@@ -1,0 +1,58 @@
+<resources>
+	<string name="app_name">ДД.Инфо</string>
+
+	<string name="screen_title_main_menu">ДД.Инфо</string>
+	<string name="screen_title_payment_menu">Выплаты</string>
+	<string name="screen_title_physical_menu">Физическая подготовка</string>
+
+	<string name="main_menu_item_calculator_title">Калькулятор ДД</string>
+	<string name="main_menu_item_calculator_description">Расчет денежного довольствия</string>
+	<string name="main_menu_item_payment_menu_title">Выплаты</string>
+	<string name="main_menu_item_payment_menu_description">Расчет единовременных и компенсационных выплат</string>
+	<string name="main_menu_item_physical_menu_title">Физическая подготовка</string>
+	<string name="main_menu_item_physical_menu_description">Расчет баллов ФП и итоговой оценки</string>
+	<string name="main_menu_item_benefit_menu_title">Военная пенсия</string>
+	<string name="main_menu_item_benefit_menu_description">Расчет военной пенсии</string>
+	<string name="payment_menu_item_pp">Подъемное пособие</string>
+	<string name="payment_menu_item_mp">Материальная помощь</string>
+	<string name="payment_menu_item_risk">ЕН за риск (Полевые, 2%)</string>
+	<string name="payment_menu_item_dkdso">ДК за доп. сутки отдыха</string>
+	<string name="payment_menu_item_epuvol">ЕП при увольнении</string>
+	<string name="payment_menu_item_dknaem">ДК за наем</string>
+
+	<string name="physical_menu_item_grades">Оценочные баллы ФП</string>
+	<string name="physical_menu_item_male">ФП мужчины</string>
+	<string name="physical_menu_item_female">ФП женщины</string>
+
+	<string name="calculator_item_choose">Выбрать</string>
+	<string name="gender_grade_exercises_choose">Выбрать упражнение</string>
+	<string name="gender_grade_result_choose">Выбрать результат</string>
+
+	<string name="gender_grade_exercise_1">Упражнение 1</string>
+	<string name="gender_grade_exercise_2">Упражнение 2</string>
+	<string name="gender_grade_exercise_3">Упражнение 3</string>
+	<string name="gender_grade_exercise_4">Упражнение 4</string>
+	<string name="gender_grade_exercise_5">Упражнение 5</string>
+	<string name="gender_grade_total">Сумма баллов</string>
+
+	<string name="menu_save_button">Сохранить</string>
+	<string name="menu_clear_button">Сбросить</string>
+
+	<string name="input_default_error">Возникла ошибка…</string>
+	<string name="input_empty_string_error">Введите число</string>
+	<string name="input_max_value_error">Вы не можете ввести число больше %s</string>
+	<string name="input_max_percent_error">Вы не можете ввести процент больше %s</string>
+	<string name="input_not_value_error">Невозможно преобразовать в число</string>
+	<string name="input_ambiguous_input_type_error">Выберите только один тип значения</string>
+	<string name="input_empty_input_type_error">Невозможно выбрать тип значения</string>
+
+	<string name="input_selector_view_percent">%</string>
+	<string name="input_selector_view_currency">₽</string>
+
+	<string name="calculation_result_sum_for_payoff">Начислено</string>
+	<string name="calculation_result_taxes">Налоги</string>
+	<string name="calculation_result_other_obligation">Удержания</string>
+	<string name="calculation_result_sum_after_taxes">К зачислению</string>
+	<string name="error_invalid_selection">Невозможная комбинация\nпараметров</string>
+	<string name="error_title">Ошибка</string>
+</resources>

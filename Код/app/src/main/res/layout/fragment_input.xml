@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<com.ntechnology.ddinfo.ui.widgets.InputValueTypeSelectorView
+		android:id="@+id/selectorView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_margin="@dimen/size_medium"
+		android:visibility="gone" />
+
+	<EditText
+		android:id="@+id/editTextView"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/size_input_type_height"
+		android:layout_marginLeft="@dimen/size_medium"
+		android:layout_marginTop="@dimen/size_medium"
+		android:layout_marginRight="@dimen/size_medium"
+		android:background="@null"
+		android:focusable="true"
+		android:gravity="top"
+		android:inputType="number"
+		android:textSize="@dimen/textsize_xxxlarge" />
+
+</LinearLayout>
